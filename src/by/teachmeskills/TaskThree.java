@@ -1,6 +1,9 @@
 package by.teachmeskills;
 
 import java.util.Scanner;
+//Создайте и заполните массив случайным числами и выведете
+//        максимальное, минимальное и среднее значение. Для генерации случайного числа используйте метод Math.random(). Пусть будет возможность создавать массив произвольного размера. Пусть размер массива вводится с консоли.
+
 
 public class TaskThree {
     public static void main(String[] args) {
@@ -15,15 +18,16 @@ public class TaskThree {
         double min = array[0];
         double avg = 0;
         for (int i = 0; i < array.length; i++) {
-            if(max < array[i])
+            if (max < array[i]) {
                 max = array[i];
-            if(min > array[i])
+            }
+            if (min > array[i]) {
                 min = array[i];
-            avg += array[i]/array.length;
+                avg += array[i] / array.length;
+            }
         }
-
         System.out.println("max = " + max);
         System.out.println("min = " + min);
         System.out.println("avg = " + avg);
     }
-    }
+}
