@@ -2,6 +2,11 @@ package by.onliner;
 
 import java.sql.Array;
 import java.util.Scanner;
+/*
+Создать трехмерный массив из целых чисел.
+        С помощью циклов "пройти" по всему массиву и увеличить каждый элемент на заданное число.
+        Пусть число, на которое будет увеличиваться каждый элемент, задается из консоли.
+*/
 
 public class TaskOne {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
 package by.onliner;
+/*Создайте двумерный массив целых чисел. Выведите на консоль сумму всех
+        элементов массива*/
 
 public class AddTwo {
     public static void main(String[] args) {

@@ -2,6 +2,13 @@ package by.teachmeskills;
 
 import java.util.Arrays;
 import java.util.Scanner;
+/*
+ Создайте массив целых чисел. Удалите все вхождения заданного
+         числа из массива.
+         Пусть число задается с консоли (класс Scanner).
+         Если такого числа нет - выведите сообщение об этом.
+         В результате должен быть новый массив без указанного числа.
+*/
 
 public class TaskTwo {
     public static void main(String[] args) {

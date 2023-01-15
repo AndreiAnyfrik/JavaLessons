@@ -1,7 +1,13 @@
 package by.teachmeskills;
+/*
+Создайте и заполните массив случайным числами и выведете
+        максимальное, минимальное и среднее значение.
+        Для генерации случайного числа используйте метод Math.random().
+        Пусть будет возможность создавать массив произвольного размера.
+        Пусть размер массива вводится с консоли.
+*/
 
 import java.util.Scanner;
-
 public class TaskThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

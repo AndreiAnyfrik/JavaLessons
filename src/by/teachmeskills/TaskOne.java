@@ -1,7 +1,11 @@
 package by.teachmeskills;
+/*
+Создайте массив целых чисел. Напишете программу, которая выводит
+        сообщение о том, входит ли заданное число в массив или нет.
+        Пусть число для поиска задается с консоли (класс Scanner).
+*/
 
 import java.util.Scanner;
-
 public class TaskOne {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

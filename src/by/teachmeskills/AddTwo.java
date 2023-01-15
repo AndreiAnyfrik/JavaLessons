@@ -1,6 +1,11 @@
 package by.teachmeskills;
 
 import java.util.Arrays;
+/*
+Создайте массив и заполните массив. Выведите массив на экран в строку.
+        Замените каждый элемент с нечётным индексом на ноль.
+        Снова выведете массив на экран на отдельной строке
+*/
 
 public class AddTwo {
     public static void main(String[] args) {
