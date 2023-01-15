@@ -18,7 +18,7 @@ public class TaskTwo {
         int[] arr = {1, 2, 3};
         int j = 0;
         int numb = 0;
-        for(int value : arr) {
+        for (int value : arr) {
             if (value == x) {
                 numb++;
             }

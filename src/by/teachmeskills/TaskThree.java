@@ -8,6 +8,7 @@ package by.teachmeskills;
 */
 
 import java.util.Scanner;
+
 public class TaskThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -21,15 +22,15 @@ public class TaskThree {
         double min = array[0];
         double avg = 0;
         for (int i = 0; i < array.length; i++) {
-            if(max < array[i])
+            if (max < array[i])
                 max = array[i];
-            if(min > array[i])
+            if (min > array[i])
                 min = array[i];
-            avg += array[i]/array.length;
+            avg += array[i] / array.length;
         }
 
         System.out.println("max = " + max);
         System.out.println("min = " + min);
         System.out.println("avg = " + avg);
     }
-    }
+}

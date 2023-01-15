@@ -6,6 +6,7 @@ package by.teachmeskills;
 */
 
 import java.util.Scanner;
+
 public class TaskOne {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
